@@ -1,0 +1,103 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+  height: 100vh;
+}
+
+h1 {
+  margin: 30px 30px 5px 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+.btn {
+  padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #393E46;
+    background-color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    
+    
+}
+
+.buttonDiv {
+  padding-top: 20px;
+  text-align: center;
+  
+}
+
+.enterNameOne {
+  margin: 1rem auto 1rem auto;
+  color:#4ECCA3;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.7rem;
+  
+}
+
+.enterNameTwo {
+  margin: 1rem auto 1rem auto;
+  color:#4ECCA3;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.7rem;
+}
+
+#playerOneInput {
+  margin-top: 0.5rem;
+}
+
+#playerTwoInput {
+  margin-top: 0.5rem;
+}
+
+#myButtonOne {
+  background-color: #4ECCA3;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+ 
+}
+
+#myButtonTwo {
+  background-color: #4ECCA3;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+  
+}
+
+footer {
+  margin-top: 2%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+  </head>
+  <body>
+    
+    <!--Player One Name Section-->
+    <div class="enterNameOne">
+    <label>Player One - Enter Your Name:</label><br>
+      <input type="text" id="playerOneInput" required><br>
+      <button type="button" id="myButtonOne">Submit</button>
+    </div>
+
+      <!--Player Two Name Section-->
+      <div class="enterNameTwo">
+        <label>Player Two - Enter Your Name:</label><br>
+        <input type="text" id="playerTwoInput" required><br>
+        <button type="button" id="myButtonTwo">Submit</button>
+      </div>
+
+       <!--Dice Roll Button-->
+       <div class="buttonDiv">
+        <button type="button" class="btn" class="btn btn-primary btn-lg" onclick="diceGame()">Roll the Dice!</button>
+      </div>
+
+
+    <!--Main Container-->
+      <div class="container">
+        <h1>Snake Eyes</h1>
+
+      <div class="dice">
+        <p id="p1Name">Player 1</p>
+        <img class="img1" src="./images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p id="p2Name">Player 2</p>
+        <img class="img2" src="./images/dice6.png">
+      </div>
+
+    </div>
+
+    <script src="./index.js" charse="utf-8"></script>
+  </body>
+
+  <footer>
+    O'Brien Games
+  </footer>
+
+ 
+</html>
